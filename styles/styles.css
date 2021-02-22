@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: 'Comfortaa', cursive;
+    color:black;
+
+}
+
+main{
+    
+    background: linear-gradient(200deg, rgb(238, 110, 195) 0%, rgba(255, 191, 218, 0.92) 100%);
+    padding: 20px;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0px 6px 18px rgb(238 110 195/ 60%);
+    
+}
+
+p{
+    margin:20px;
+}
+
+
+section {
+    border-top: 2px dashed rgb(167, 62, 132,0.5);;
+    border-bottom: 2px dashed  rgb(167, 62, 132,0.5);
+    position: relative;  
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+a{
+background-color: #ed462f;
+color: white;
+font-weight: 500;
+padding: 10px;
+border-radius: 5px;
+margin-top: 20px;
+text-decoration: none;
+display: flex;
+align-items: center;
+float: left;
+}
+
+a img {
+    margin-right: 10px;
+    width: 30px; 
+    height: 30px; 
+    object-fit: cover;   
+}
+
