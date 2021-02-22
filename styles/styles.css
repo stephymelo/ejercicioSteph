@@ -19,13 +19,15 @@ main{
 }
 
 p{
-    margin:20px;
+    width: 70%;
 }
 
 
 section {
-    border-top: 2px dashed rgb(167, 62, 132,0.5);;
-    border-bottom: 2px dashed  rgb(167, 62, 132,0.5);
+    border-top: 2px;
+    border-style: dashed;
+    border-bottom: 2px;
+    border-color:rgb(167, 62, 132,0.5);
     position: relative;  
 }
 
